@@ -1,0 +1,46 @@
+package main
+
+import (
+	"fmt"
+	testing "testing/tester"
+)
+
+func main() {
+	fmt.Println(testing.PrintIf("abcdefz"))
+	fmt.Println(testing.PrintIf("abc"))
+	fmt.Println(testing.PrintIf(""))
+	fmt.Println(testing.PrintIf("14"))
+	fmt.Println(testing.CheckNumber("abc"))
+	fmt.Println(testing.CheckNumber("abc123"))
+	fmt.Println(testing.CheckNumber("123"))
+	fmt.Println(testing.CheckNumber(""))
+	fmt.Println(testing.PrintOnlyF("f"))
+	fmt.Println(testing.CountChar("Hello World", '1'))
+	fmt.Println(testing.CountChar("5 ballons", 5))
+	fmt.Println(testing.CountChar("  ", ' '))
+	fmt.Println(testing.CountChar("The 7 deadly sins", '7'))
+	fmt.Println(testing.RetainFirstHalf("HelloWorld"))
+	fmt.Println(testing.DigitLen(100, 10))
+	fmt.Println(testing.DigitLen(100, 2))
+	fmt.Println(testing.DigitLen(-100, 16))
+	fmt.Println(testing.DigitLen(100, -1))
+	fmt.Println(testing.CountAlpha("Hello World"))
+	fmt.Println(testing.CountAlpha("H e l l o"))
+	fmt.Println(testing.FishandChips(4))
+	fmt.Println(testing.FishandChips(9))
+	fmt.Println(testing.FishandChips(6))
+	fmt.Println(testing.FishandChips(-1))
+	fmt.Println(testing.FishandChips(7))
+	fmt.Println(testing.FishandChips(0))
+	fmt.Println(testing.Gcd(42, 10))
+	fmt.Println(testing.Gcd(42, 12))
+	fmt.Println(testing.Gcd(14, 77))
+	fmt.Println(testing.Gcd(17, 3))
+	fmt.Println(testing.Firstword("this              ....... is sparta, then again, maybe not"))
+	fmt.Println(testing.Firstword(" lorem,ipsum "))
+	fmt.Println(testing.Lastword(" "))
+	fmt.Println(testing.Lastword("this              ....... is sparta, then again, maybe not"))
+	fmt.Println(testing.Lastword(" lorem,ipsum "))
+	fmt.Println(testing.Lastword(" "))
+
+}
