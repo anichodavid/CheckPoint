@@ -42,5 +42,8 @@ func main() {
 	fmt.Println(testing.Lastword("this              ....... is sparta, then again, maybe not"))
 	fmt.Println(testing.Lastword(" lorem,ipsum "))
 	fmt.Println(testing.Lastword(" "))
-
+	fmt.Println(testing.Hashcode("Hello World"))
+	fmt.Println(testing.Hashcode("A"))
+	fmt.Println(testing.Hashcode("AB"))
+	fmt.Println(testing.Hashcode("BAC"))
 }
