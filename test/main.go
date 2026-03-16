@@ -10,7 +10,7 @@ func main() {
 	fmt.Println(testing.PrintIf("abc"))
 	fmt.Println(testing.PrintIf(""))
 	fmt.Println(testing.PrintIf("14"))
-	fmt.Println(testing.CheckNumber("abc"))
+	fmt.Println(testing.CheckNumber("-9"))
 	fmt.Println(testing.CheckNumber("abc123"))
 	fmt.Println(testing.CheckNumber("123"))
 	fmt.Println(testing.CheckNumber(""))
